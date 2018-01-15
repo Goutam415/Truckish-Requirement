@@ -1,0 +1,48 @@
+﻿<h4 style="font-family: 'Times New Roman', Georgia, Serif;">Hello {{vm.user.firstName}} {{vm.destination}}!!</h4>
+<input id="pac-input" class="controls" type="text" placeholder="Enter a location">
+<div id="map" style="height:500px;"></div>
+
+
+  <div class="row">
+    <div class="col-md-12">
+      Travel Information
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+      <div>Distance: {{distanceAndDuration.distance}} Kms</div>
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+      <div>Duration: {{distanceAndDuration.duration}} Hrs</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      Destination point weather information
+    </div>
+        <div class="col-md-3 col-md-offset-1">
+            <div>CITY: {{weatherInfo.name}}</div>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+            <div>TEMPERATURE: {{weatherInfo.temperature}} &deg; <small>F</small></div>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+            <div>WIND SPEED: {{weatherInfo.wind_speed}} km/h</div>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+          <div>WIND DEGREE: {{weatherInfo.wind_degree}} &deg; </div>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+          <div>SUN RISE TIME: {{weatherInfo.sunrise}} </div>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+          <div>SUN SET TIME: {{weatherInfo.sunset}} </div>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+          <div>PRESSURE: {{weatherInfo.pressure}} PSI</div>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+          <div>HUMIDITY: {{weatherInfo.humidity}} %</div>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+          <div>DESCRIPTION: {{weatherInfo.description}}</div>
+        </div>
+  </div>

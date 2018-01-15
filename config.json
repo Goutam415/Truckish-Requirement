@@ -1,0 +1,5 @@
+﻿{
+    "connectionString": "mongodb://localhost:27017/truckish-map",
+    "apiUrl": "http://localhost:3000/api",
+    "secret": "Goutam's Secret Key is this one."
+}
