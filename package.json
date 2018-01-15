@@ -2,6 +2,9 @@
     "name": "truckish-maps-assignment-application",
     "version": "1.0.0",
     "description": "Truckish Maps Assignment Application",
+    "scripts": {
+        "deploy": "brunch build --production"
+      },
     "dependencies": {
         "bcryptjs": "^2.1.0",
         "body-parser": "^1.13.2",
